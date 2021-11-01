@@ -1,7 +1,7 @@
 
 ```{r 'check_ps', include=FALSE}
 
-user.name = 'ENTER A USER NAME HERE' # set to your user name
+user.name = 'Testendgültig' # set to your user name
 
 # To check your problem set, run the 
 # RStudio Addin 'Check Problemset'
@@ -49,7 +49,7 @@ Sie sollten fuer ihre Rohdaten immer einen eigenen Ordner erstellen und in ihrem
 b) Um zu sehen, welche Ordner und Dateien sich im aktuellen Arbeitsverzeichnis befinden koennen Sie den Befehl `list.files()` verwenden. Ordner koennen Sie erkennen, da diese keine Dateiendung vorweisen. Versuchen Sie es einmal:
 ```{r "1_b",optional=TRUE}
 
-# enter your code here ...
+list.files()
 
 ```
 c)  Um den Umgang mit R zu erleichtern wurden ueber die Jahre zahlreiche sogenannte packages (Pakete) entwickelt. Diese enthalten zusaetzliche Funktionen fuer R. Die wichtigsten werden auf der Plattform "CRAN" gehostet. Um ein Paket zu verwenden muessen Sie es einmal installieren. Bspw. wird das Paket `tidyverse` mittels `install.packages("tidyverse")` installiert. 
@@ -93,14 +93,16 @@ Mit dem Befehl `read_lines()` koennen Sie sich die ersten Zeilen jedes Textdokum
 Betrachten Sie die ersten 10 Zeilen der Textdokumente `EU_Makro1.csv` und `EU_Makro3.csv` mit Hilfe von `read_lines()`. 
 
 ```{r "2"}
-read_lines("./data/EU_Makro1.csv",n_max = 10)
-read_lines("./data/EU_Makro3.csv",n_max = 10)
+readLines("./data/EU_Makro1.csv",10)
+readLines("./data/EU_Makro3.csv",10)
 ```
 
 Bei dem Datensatz `EU_Makro2.xlsx` handelt es sich um keine Textdatei und daher koennen Sie hier `read_lines()` nicht verwenden. Sie koennen sich dennoch einen Ueberblick ueber die Daten verschaffen indem Sie `read_xlsx()` verwenden. Das wollen wir hier tun und lassen uns nur die ersten drei Zeilen ausgeben:
 
 ```{r "2__2"}
-read_xlsx("./data/EU_Makro2.xlsx", n_max = 3)
+#install.packages("openxlsx")
+library(openxlsx)
+read.xlsx("./data/EU_Makro2.xlsx",1)
 ```
 
 a) Beantworten Sie nun folgende Fragen: Welche Datensaetze verfuegen ueber keine Kopfzeile?
@@ -115,8 +117,7 @@ a) Beantworten Sie nun folgende Fragen: Welche Datensaetze verfuegen ueber keine
 Geben Sie hier die Ziffer Ihrer Antwort ein und fuehren Sie die Codezeile aus:
 ```{r "2_a",optional=TRUE}
 
-# enter your code here ...
-
+2
 ```
 
 b) Betrachten Sie die drei Datensaetze. In welchem Datensatz findet die Trennung der Dezimalstellen durch Komma statt.
@@ -131,8 +132,7 @@ b) Betrachten Sie die drei Datensaetze. In welchem Datensatz findet die Trennung
 Geben Sie hier die Ziffer Ihrer Antwort ein und fuehren Sie die Codezeile aus:
 ```{r "2_b",optional=TRUE}
 
-# enter your code here ...
-
+3
 ```
 c) In welcher Form werden die Eintragungen in EU_Makro1.csv und EU_Makro3.csv jeweils voneinander getrennt?
 
@@ -144,8 +144,7 @@ c) In welcher Form werden die Eintragungen in EU_Makro1.csv und EU_Makro3.csv je
 Geben Sie hier die Ziffer Ihrer Antwort ein und fuehren Sie die Codezeile aus:
 ```{r "2_c",optional=TRUE}
 
-# enter your code here ...
-
+3
 ```
 
 Hier waere ein guter Zeitpunkt das Addin 'Check Problemset' auszufuehren!
@@ -154,16 +153,17 @@ Nachdem Sie sich einen Ueberblick ueber die Daten verschafft haben wollen Sie di
 
 d) Sie finden unten den Code um `eu_makro1` und `eu_makro2` zu importieren. Importieren Sie ausserdem `eu_makro3`. Wie lautet hierfuer der Code?
 ```{r "2_d"}
-eu_makro1 <- read_csv("./data/EU_Makro1.csv", col_names = FALSE)
-eu_makro2 <- read_xlsx("./data/EU_Makro2.xlsx")
-
-# enter your code here ...
-
+eu_makro1 <- read.csv("./data/EU_Makro1.csv")
+eu_makro2 <- read.xlsx("./data/EU_Makro2.xlsx")
+eu_makro3 <- read.csv2("./data/eu_makro3.csv")
 ```
 e) Lassen Sie sich die ersten 3 Zeilen jedes Datensatzes anzeigen.
 ```{r "2_e",optional=TRUE}
 
-# enter your code here ...
+head(eu_makro1,3)
+head(eu_makro2,3)
+head(eu_makro3,3)
+
 
 ```
 
@@ -172,7 +172,6 @@ Hier waere ein guter Zeitpunkt das Addin 'Check Problemset' auszufuehren!
 f)  Wie Sie sehen hat `eu_makro1` sehr unspezifische Spaltennamen. Beschriften Sie die Spalten in `eu_makro1` mit "cntry", "country", "year", "pop", "unempl", "gdp", "gov_debt", "date". Um zu ueberpruefen ob es funktioniert hat, koennen Sie in die Konsole `colnames(eu_makro1)` oder einfach `head()` eingeben.
 ```{r "2_f"}
 
-# enter your code here ...
 
 ```
 g) Lassen Sie sich den Datentyp der Variable date in `eu_makro1` anzeigen.
