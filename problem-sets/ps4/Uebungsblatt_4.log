@@ -1,0 +1,18 @@
+{"type":["init_ps"],"time":["2022-04-27 15:19:46"],"user":["Esra Akdeniz"],"umph":[1651065586.3145],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2022-04-27 15:19:46"],"user":["Esra Akdeniz"],"umph":[1651065586.3698],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(stargazer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2022-04-27 15:19:46"],"user":["Esra Akdeniz"],"umph":[1651065586.6547],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\neu_makro <- read_csv(\"./data/EU_Makro.csv\")\n# enter your code here ...\n\ninstall.packages(\"RTutor\",repos = c(\"https://skranz-repo.github.io/drat/\",getOption(\"repos\"))) # Problem Sets\nlibrary(RTutor)"],"message":["evaluation error in \n  install.packages(\"RTutor\", repos = c(\"https://skranz-repo.github.io/drat/\", getOption(\"repos\")))\n  Error in install.packages(\"RTutor\", repos = c(\"https://skranz-repo.github.io/drat/\", : Please don't call the function install.packages in your RTutor problem set. To load an already installed package, use the function library. To install packages, use a separate R script in which you write and run the install.packages command.\n"]}
+,
+{"type":["hint"],"time":["2022-04-27 15:20:20"],"user":["Esra Akdeniz"],"umph":[1651065620.671],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0]}
+,
+{"type":["check_ps"],"time":["2022-04-27 15:20:28"],"user":["Esra Akdeniz"],"umph":[1651065628.6911],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2022-04-27 15:20:28"],"user":["Esra Akdeniz"],"umph":[1651065628.8743],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\neu_makro <- read_csv(\"./data/EU_Makro.csv\")\n# enter your code here ...\n\ninstall.packages(\"RTutor\",repos = c(\"https://skranz-repo.github.io/drat/\",getOption(\"repos\"))) # Problem Sets\nlibrary(RTutor)"],"message":["evaluation error in \n  install.packages(\"RTutor\", repos = c(\"https://skranz-repo.github.io/drat/\", getOption(\"repos\")))\n  Error in install.packages(\"RTutor\", repos = c(\"https://skranz-repo.github.io/drat/\", : Please don't call the function install.packages in your RTutor problem set. To load an already installed package, use the function library. To install packages, use a separate R script in which you write and run the install.packages command.\n"]}
+,
+{"type":["hint"],"time":["2022-04-27 15:20:52"],"user":["Esra Akdeniz"],"umph":[1651065652.5549],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0]}
+,
+{"type":["check_ps"],"time":["2022-04-27 15:20:57"],"user":["Esra Akdeniz"],"umph":[1651065657.2018],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2022-04-27 15:20:57"],"user":["Esra Akdeniz"],"umph":[1651065657.3687],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\neu_makro <- read_csv(\"./data/EU_Makro.csv\")\n# enter your code here ...\n\ninstall.packages(\"RTutor\",repos = c(\"https://skranz-repo.github.io/drat/\",getOption(\"repos\"))) # Problem Sets\nlibrary(RTutor)"],"message":["evaluation error in \n  install.packages(\"RTutor\", repos = c(\"https://skranz-repo.github.io/drat/\", getOption(\"repos\")))\n  Error in install.packages(\"RTutor\", repos = c(\"https://skranz-repo.github.io/drat/\", : Please don't call the function install.packages in your RTutor problem set. To load an already installed package, use the function library. To install packages, use a separate R script in which you write and run the install.packages command.\n"]}
+,
