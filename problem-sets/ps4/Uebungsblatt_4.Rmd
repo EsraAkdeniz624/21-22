@@ -32,6 +32,11 @@ Sollten Sie so beantworten, dass Sie die `___` Abschnitte befuellen und das `#__
 
 Beginnen sie indem Sie oben Ihren Name in das Feld user.name eingeben.
 
+```{r}
+k<-c(0.01,0.05)
+x<-c(100)
+x/k
+```
 
 ## Exercise 1 -- Einfache lineare Zusammenhaenge
 
