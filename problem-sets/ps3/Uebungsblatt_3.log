@@ -1,0 +1,342 @@
+{"type":["init_ps"],"time":["2021-11-03 19:05:01"],"user":["Esra Akdeniz"],"umph":[1635962701.2276],"ok":[true]}
+,
+{"type":["init_ps"],"time":["2021-11-03 19:07:44"],"user":["Esra Akdeniz"],"umph":[1635962864.4407],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-03 19:07:44"],"user":["Esra Akdeniz"],"umph":[1635962864.5963],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-03 19:07:45"],"user":["Esra Akdeniz"],"umph":[1635962865.3682],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/esra-/Desktop/ProblemSet3/problem-sets/ps3').\n"]}
+,
+{"type":["hint"],"time":["2021-11-03 19:08:37"],"user":["Esra Akdeniz"],"umph":[1635962917.6129],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0]}
+,
+{"type":["hint"],"time":["2021-11-03 23:52:09"],"user":["Esra Akdeniz"],"umph":[1635979929.002],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0]}
+,
+{"type":["hint"],"time":["2021-11-03 23:52:36"],"user":["Esra Akdeniz"],"umph":[1635979956.9277],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0]}
+,
+{"type":["hint"],"time":["2021-11-03 23:55:10"],"user":["Esra Akdeniz"],"umph":[1635980110.4816],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0]}
+,
+{"type":["hint"],"time":["2021-11-03 23:59:26"],"user":["Esra Akdeniz"],"umph":[1635980366.9489],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0]}
+,
+{"type":["init_ps"],"time":["2021-11-05 16:25:52"],"user":["Esra Akdeniz"],"umph":[1636125952.118],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:25:52"],"user":["Esra Akdeniz"],"umph":[1636125952.3411],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:25:52"],"user":["Esra Akdeniz"],"umph":[1636125952.6542],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n  Error in methods:::.hasS4MetaData(ns): Value of SET_STRING_ELT() must be a 'CHARSXP' not a 'NULL'\n"]}
+,
+{"type":["check_ps"],"time":["2021-11-05 16:50:59"],"user":["Esra Akdeniz"],"umph":[1636127459.1441],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:50:59"],"user":["Esra Akdeniz"],"umph":[1636127459.2032],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n  Error in get(method, envir = home): object 'print.integer64' not found\n"]}
+,
+{"type":["check_ps"],"time":["2021-11-05 16:51:12"],"user":["Esra Akdeniz"],"umph":[1636127472.1595],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:51:12"],"user":["Esra Akdeniz"],"umph":[1636127472.2485],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n  Error in get(method, envir = home): object 'print.integer64' not found\n"]}
+,
+{"type":["init_ps"],"time":["2021-11-05 16:53:29"],"user":["Esra Akdeniz"],"umph":[1636127609.7107],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:53:29"],"user":["Esra Akdeniz"],"umph":[1636127609.7757],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:53:30"],"user":["Esra Akdeniz"],"umph":[1636127610.482],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:53:31"],"user":["Esra Akdeniz"],"umph":[1636127611.4775],"ok":[true],"chunk":[3],"ex":[1],"e.ind":[0],"code":["\nueberblick <- skim (eu_makro)\nueberblick "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:53:31"],"user":["Esra Akdeniz"],"umph":[1636127611.8648],"ok":[true],"chunk":[4],"ex":[1],"e.ind":[0],"code":["panderOptions('knitr.auto.asis', FALSE)\nueberblick %>% pander(style=\"rmarkdown\") "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 16:53:31"],"user":["Esra Akdeniz"],"umph":[1636127611.891],"ok":[false],"chunk":[5],"ex":[1],"e.ind":[1],"code":["\n####was eingeben"],"message":["\nYou have not yet entered all correct commands in chunk 1___Deskriptive_Anal_c_2."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:11:28"],"user":["Esra Akdeniz"],"umph":[1636128688.0347],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:11:28"],"user":["Esra Akdeniz"],"umph":[1636128688.0625],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:11:28"],"user":["Esra Akdeniz"],"umph":[1636128688.0998],"ok":[false],"chunk":[6],"ex":[1],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1___Deskriptive_Anal_c_3."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:12:01"],"user":["Esra Akdeniz"],"umph":[1636128721.4313],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:12:01"],"user":["Esra Akdeniz"],"umph":[1636128721.459],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:12:01"],"user":["Esra Akdeniz"],"umph":[1636128721.4801],"ok":[false],"chunk":[6],"ex":[1],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1___Deskriptive_Anal_c_3."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:12:55"],"user":["Esra Akdeniz"],"umph":[1636128775.3417],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:12:55"],"user":["Esra Akdeniz"],"umph":[1636128775.3706],"ok":[false],"chunk":[5],"ex":[1],"e.ind":[1],"code":["1\n"],"message":["\nYou have not yet entered all correct commands in chunk 1___Deskriptive_Anal_c_2."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:13:09"],"user":["Esra Akdeniz"],"umph":[1636128789.0762],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:13:09"],"user":["Esra Akdeniz"],"umph":[1636128789.1179],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:13:09"],"user":["Esra Akdeniz"],"umph":[1636128789.1453],"ok":[false],"chunk":[6],"ex":[1],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1___Deskriptive_Anal_c_3."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:19:18"],"user":["Esra Akdeniz"],"umph":[1636129158.2755],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:19:18"],"user":["Esra Akdeniz"],"umph":[1636129158.3016],"ok":[false],"chunk":[6],"ex":[1],"e.ind":[1],"code":["\n1"],"message":["\nYou have not yet entered all correct commands in chunk 1___Deskriptive_Anal_c_3."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:19:25"],"user":["Esra Akdeniz"],"umph":[1636129165.8238],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:19:25"],"user":["Esra Akdeniz"],"umph":[1636129165.8592],"ok":[true],"chunk":[6],"ex":[1],"e.ind":[0],"code":["\n2"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:19:25"],"user":["Esra Akdeniz"],"umph":[1636129165.8864],"ok":[false],"chunk":[7],"ex":[1],"e.ind":[1],"code":["#deskriptives <- eu_makro %>%\n#  group_by(___) %>%\n#  summarize(Mittel = round(___(debt_share_country, na.rm=TRUE),2),\n#            SD = round(___(debt_share_country, na.rm=TRUE),2),\n#            Min = round(___(debt_share_country, na.rm=TRUE),2),\n#            Median = round(___(debt_share_country, na.rm=TRUE),2),\n#            Max = round(___(debt_share_country, na.rm=TRUE),2)) %>%\n#  arrange(___(___))\n\n#deskriptives\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to deskriptives in chunk 1___Deskriptive_Anal_d."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:32:36"],"user":["Esra Akdeniz"],"umph":[1636129956.6815],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:32:36"],"user":["Esra Akdeniz"],"umph":[1636129956.8652],"ok":[true],"chunk":[7],"ex":[1],"e.ind":[0],"code":["deskriptives <- eu_makro %>%\ngroup_by(country) %>%\nsummarize(Mittel = round(mean(debt_share_country, na.rm=TRUE),2),\n          SD = round(sd(debt_share_country, na.rm=TRUE),2),\n          Min = round(min(debt_share_country, na.rm=TRUE),2),\n          Median = round(median(debt_share_country, na.rm=TRUE),2),\n          Max = round(max(debt_share_country, na.rm=TRUE),2)) %>%\n  arrange(desc(Median))\n\ndeskriptives\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:32:37"],"user":["Esra Akdeniz"],"umph":[1636129957.0982],"ok":[true],"chunk":[8],"ex":[2],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:32:37"],"user":["Esra Akdeniz"],"umph":[1636129957.1287],"ok":[false],"chunk":[9],"ex":[2],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to deutschland in chunk 2_a."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:43:12"],"user":["Esra Akdeniz"],"umph":[1636130592.3965],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:43:12"],"user":["Esra Akdeniz"],"umph":[1636130592.519],"ok":[true],"chunk":[9],"ex":[2],"e.ind":[0],"code":["\ndeutschland<- eu_makro %>%\n  filter(country==\"Germany\")\ndeutschland\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:43:12"],"user":["Esra Akdeniz"],"umph":[1636130592.5431],"ok":[false],"chunk":[10],"ex":[2],"e.ind":[1],"code":["#g1 <- ___ %>%\n#  ggplot() + geom_point(___(x = ___, y = ___))\n\n#g1\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g1 in chunk 2_b."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 17:46:53"],"user":["Esra Akdeniz"],"umph":[1636130813.1651],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:46:53"],"user":["Esra Akdeniz"],"umph":[1636130813.4129],"ok":[true],"chunk":[10],"ex":[2],"e.ind":[0],"code":["g1 <- deutschland %>%\n  ggplot() + geom_point(aes(x = year, y = gdp))\ng1\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 17:46:53"],"user":["Esra Akdeniz"],"umph":[1636130813.4376],"ok":[false],"chunk":[11],"ex":[2],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g2 in chunk 2_c."]}
+,
+{"type":["hint"],"time":["2021-11-05 22:38:45"],"user":["Esra Akdeniz"],"umph":[1636148325.0986],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 22:40:22"],"user":["Esra Akdeniz"],"umph":[1636148422.2],"ok":[true]}
+,
+{"type":["check_ps"],"time":["2021-11-05 22:40:49"],"user":["Esra Akdeniz"],"umph":[1636148449.2499],"ok":[true]}
+,
+{"type":["hint"],"time":["2021-11-05 22:44:52"],"user":["Esra Akdeniz"],"umph":[1636148692.4178],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[1]}
+,
+{"type":["hint"],"time":["2021-11-05 22:45:02"],"user":["Esra Akdeniz"],"umph":[1636148702.4594],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 22:47:25"],"user":["Esra Akdeniz"],"umph":[1636148845.4675],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 22:47:25"],"user":["Esra Akdeniz"],"umph":[1636148845.7527],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[0],"code":["g2<-g1+geom_line(aes(x=year, y=gov_debt))\ng2\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 22:47:25"],"user":["Esra Akdeniz"],"umph":[1636148845.7835],"ok":[false],"chunk":[12],"ex":[2],"e.ind":[1],"code":["# g3 <- ____ %>%\n#   ggplot() + \n#   geom_line(aes(x = ____, y = ____, group=____, colour=____))\n#\n#g3\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g3 in chunk 2_d."]}
+,
+{"type":["hint"],"time":["2021-11-05 23:02:09"],"user":["Esra Akdeniz"],"umph":[1636149729.4274],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:08:50"],"user":["Esra Akdeniz"],"umph":[1636150130.3272],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:08:51"],"user":["Esra Akdeniz"],"umph":[1636150131.5807],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[0],"code":["g3 <- eu_makro %>%\nggplot() + \ngeom_line(aes(x = year , y = debt_share_country, group=country, colour=country))\ng3\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:08:53"],"user":["Esra Akdeniz"],"umph":[1636150133.8611],"ok":[true],"chunk":[13],"ex":[2],"e.ind":[0],"code":["eu_analyse <- eu_makro %>%\nfilter(year>=1995) %>%\nmutate( Laender = case_when(\ncountry == \"Germany\" ~ \"Deutschland\",\ncountry == \"Italy\" ~ \"Italien\",\nTRUE ~ \"Andere\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:08:53"],"user":["Esra Akdeniz"],"umph":[1636150133.8889],"ok":[false],"chunk":[14],"ex":[2],"e.ind":[1],"code":["#g4 <- eu_analyse %>%\n#  ggplot() + \n#  geom_line(aes(x = year, y = debt_share_country, group = ___, colour = ___))\n\n#g4\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g4 in chunk 2_f."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:11:55"],"user":["Esra Akdeniz"],"umph":[1636150315.7369],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:11:56"],"user":["Esra Akdeniz"],"umph":[1636150316.1109],"ok":[true],"chunk":[14],"ex":[2],"e.ind":[0],"code":["g4 <- eu_analyse %>%\n  ggplot() + \n  geom_line(aes(x = year, y = debt_share_country, group = country, colour = Laender))\ng4\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:11:56"],"user":["Esra Akdeniz"],"umph":[1636150316.1354],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["#g5 <- g4 + \n#  ylab(\"___\") + \n#  xlab(\"___\") +\n#  scale_colour_manual(name = \"___\", \n#                      values = c(\"___\", \"___\", \"___\"))\n#\n#g5\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:16:17"],"user":["Esra Akdeniz"],"umph":[1636150577.0089],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:16:17"],"user":["Esra Akdeniz"],"umph":[1636150577.3908],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n                    values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["hint"],"time":["2021-11-05 23:17:24"],"user":["Esra Akdeniz"],"umph":[1636150644.4599],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:18:47"],"user":["Esra Akdeniz"],"umph":[1636150727.6394],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:18:48"],"user":["Esra Akdeniz"],"umph":[1636150728.2492],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["hint"],"time":["2021-11-05 23:23:34"],"user":["Esra Akdeniz"],"umph":[1636151014.6184],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:23:47"],"user":["Esra Akdeniz"],"umph":[1636151027.9289],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:23:48"],"user":["Esra Akdeniz"],"umph":[1636151028.3278],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["hint"],"time":["2021-11-05 23:23:54"],"user":["Esra Akdeniz"],"umph":[1636151034.7391],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:24:39"],"user":["Esra Akdeniz"],"umph":[1636151079.5811],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:24:40"],"user":["Esra Akdeniz"],"umph":[1636151080.1195],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:24:52"],"user":["Esra Akdeniz"],"umph":[1636151092.2873],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:24:52"],"user":["Esra Akdeniz"],"umph":[1636151092.7212],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:26:03"],"user":["Esra Akdeniz"],"umph":[1636151163.4241],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:26:03"],"user":["Esra Akdeniz"],"umph":[1636151163.7835],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["hint"],"time":["2021-11-05 23:26:54"],"user":["Esra Akdeniz"],"umph":[1636151214.4871],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:27:34"],"user":["Esra Akdeniz"],"umph":[1636151254.2352],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:27:34"],"user":["Esra Akdeniz"],"umph":[1636151254.7308],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["hint"],"time":["2021-11-05 23:27:47"],"user":["Esra Akdeniz"],"umph":[1636151267.1491],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:44:20"],"user":["Esra Akdeniz"],"umph":[1636152260.3244],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:44:21"],"user":["Esra Akdeniz"],"umph":[1636152261.2139],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:45:16"],"user":["Esra Akdeniz"],"umph":[1636152316.678],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:45:17"],"user":["Esra Akdeniz"],"umph":[1636152317.0367],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:45:35"],"user":["Esra Akdeniz"],"umph":[1636152335.6836],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:45:36"],"user":["Esra Akdeniz"],"umph":[1636152336.0091],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["init_ps"],"time":["2021-11-05 23:46:00"],"user":["Esra Akdeniz"],"umph":[1636152360.499],"ok":[true]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:50:59"],"user":["Esra Akdeniz"],"umph":[1636152659.1364],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:50:59"],"user":["Esra Akdeniz"],"umph":[1636152659.4877],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:51:15"],"user":["Esra Akdeniz"],"umph":[1636152675.5278],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:51:15"],"user":["Esra Akdeniz"],"umph":[1636152675.859],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schudenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n       values = c(\"grey\", \"springgreen4\", \"blue\"))\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:55:50"],"user":["Esra Akdeniz"],"umph":[1636152950.1064],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:55:50"],"user":["Esra Akdeniz"],"umph":[1636152950.4209],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[0],"code":["g5<-g4+\n  ylab(\"Schuldenquote\")+\n  xlab(\"Jahr\")+\n  scale_color_manual(name=\"Laender\", values=c(\"grey\",\"springgreen4\",\"blue\"))\ng5\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:55:51"],"user":["Esra Akdeniz"],"umph":[1636152951.2477],"ok":[true],"chunk":[16],"ex":[2],"e.ind":[0],"code":["final <- g5 +\nggtitle(\"Schuldenquote einzelner EU-Laender von 1995 - 2017\") +\ngeom_hline(yintercept=0.60, colour = \"red\")\nfinal\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:55:51"],"user":["Esra Akdeniz"],"umph":[1636152951.8137],"ok":[true],"chunk":[17],"ex":[2],"e.ind":[0],"code":["final +\n  theme_bw() +\n  guides(color = FALSE) +\n  geom_text_repel(aes(x = year, y = debt_share_country, label = Laender),\n                  data          = filter(eu_analyse %>% filter(Laender!=\"Andere\", year==last(year))),\n                  size          = 4,\n                  box.padding   = 1.5,\n                  point.padding = 0.5,\n                  force         = 100,\n                  segment.size  = 0.2,\n                  segment.color = \"grey50\",\n                  direction     = \"x\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:55:52"],"user":["Esra Akdeniz"],"umph":[1636152952.4299],"ok":[true],"chunk":[18],"ex":[3],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\neu_analyse <- eu_makro %>%\n  filter(year>=1995) %>%\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:55:52"],"user":["Esra Akdeniz"],"umph":[1636152952.4578],"ok":[false],"chunk":[19],"ex":[3],"e.ind":[1],"code":["#eu_2005 <- eu_makro %>% \n#  filter(___) %>%\n#  ggplot(aes(___)) + \n#  ___\n\n#eu_2005\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_2005 in chunk 3_a."]}
+,
+{"type":["check_ps"],"time":["2021-11-05 23:56:22"],"user":["Esra Akdeniz"],"umph":[1636152982.5691],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-05 23:56:22"],"user":["Esra Akdeniz"],"umph":[1636152982.598],"ok":[false],"chunk":[19],"ex":[3],"e.ind":[1],"code":["#eu_2005 <- eu_makro %>% \n#  filter(___) %>%\n#  ggplot(aes(___)) + \n#  ___\n\n#eu_2005\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_2005 in chunk 3_a."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:00:37"],"user":["Esra Akdeniz"],"umph":[1636153237.7208],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:00:38"],"user":["Esra Akdeniz"],"umph":[1636153238.0997],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[0],"code":["eu_2005 <- eu_makro %>% \nfilter(year==2005) %>%\nggplot(aes(debt_share_country)) + \ngeom_histogram()\neu_2005\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:00:38"],"user":["Esra Akdeniz"],"umph":[1636153238.1276],"ok":[false],"chunk":[20],"ex":[3],"e.ind":[1],"code":["#eu_2005f <- ___ %>%\n#  filter(___) %>%\n#  ggplot(aes(___)) +\n#  geom_histogram(___) + \n#  ylab(___) +\n#  xlab(___) +\n#  ___(___ = 0.6, color=\"___\", linetype=\"___\")\n#\n#eu_2005f\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_2005f in chunk 3_b."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:00:42"],"user":["Esra Akdeniz"],"umph":[1636153242.0564],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:00:42"],"user":["Esra Akdeniz"],"umph":[1636153242.0843],"ok":[false],"chunk":[23],"ex":[3],"e.ind":[1],"code":["#balken <- eu_analyse %>%\n#  mutate( typ = ___(___(debt_share_country>___,1,0)),\n#          relation = debt_share_country - ___)\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to balken in chunk 3_e."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:05:38"],"user":["Esra Akdeniz"],"umph":[1636153538.9078],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:05:39"],"user":["Esra Akdeniz"],"umph":[1636153539.2928],"ok":[false],"chunk":[20],"ex":[3],"e.ind":[1],"code":["eu_2005f <- eu_makro %>%\nfilter(year==2005) %>%\nggplot(aes(debt_share_country)) +\ngeom_histogram(bindwidth=0.01) + \nylab(\"Anzahl\") +\nxlab(\"Schuldenquote\") +\ngeom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\")\neu_2005f\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_2005f in chunk 3_b."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:07:02"],"user":["Esra Akdeniz"],"umph":[1636153622.7077],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:07:03"],"user":["Esra Akdeniz"],"umph":[1636153623.027],"ok":[true],"chunk":[20],"ex":[3],"e.ind":[0],"code":["eu_2005f <- eu_makro %>%\nfilter(year==2005) %>%\nggplot(aes(debt_share_country)) +\ngeom_histogram(binwidth=0.01) + \nylab(\"Anzahl\") +\nxlab(\"Schuldenquote\") +\ngeom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\")\neu_2005f"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:07:03"],"user":["Esra Akdeniz"],"umph":[1636153623.0489],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["#eu_vergleich <- eu_makro %>% \n#  filter(year==2005 | ___ | ___ | ___) %>%\n#  ggplot(aes(___)) + \n#  geom_histogram(___) +\n#  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n#  xlab(\"___\") +\n#  ylab(\"___\") +\n#  ggtitle(\"___\") +\n#  facet_wrap(___ ~., nrow=___)\n\n#eu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:10:28"],"user":["Esra Akdeniz"],"umph":[1636153828.419],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:10:29"],"user":["Esra Akdeniz"],"umph":[1636153829.347],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[0],"code":["eu_vergleich <- eu_makro %>% \nfilter(year==2005 | year==2008 | year==2011 | year==2014) %>%\nggplot(aes(debt_share_country)) + \ngeom_histogram(binwidth = 0.01) +\ngeom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\nxlab(\"Schuldenquote\") +\nylab(\"Anzahl\") +\nggtitle(\"Verteilung der Schuldenquote\") +\nfacet_wrap(year ~., nrow=4)\neu_vergleich\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:10:29"],"user":["Esra Akdeniz"],"umph":[1636153829.3719],"ok":[false],"chunk":[22],"ex":[3],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 3_d."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:14:00"],"user":["Esra Akdeniz"],"umph":[1636154040.9084],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:14:00"],"user":["Esra Akdeniz"],"umph":[1636154040.9473],"ok":[true],"chunk":[22],"ex":[3],"e.ind":[0],"code":["\n1"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:14:00"],"user":["Esra Akdeniz"],"umph":[1636154040.9842],"ok":[false],"chunk":[23],"ex":[3],"e.ind":[1],"code":["#balken <- eu_analyse %>%\n#  mutate( typ = ___(___(debt_share_country>___,1,0)),\n#          relation = debt_share_country - ___)\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to balken in chunk 3_e."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:16:15"],"user":["Esra Akdeniz"],"umph":[1636154175.2863],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:16:15"],"user":["Esra Akdeniz"],"umph":[1636154175.3392],"ok":[true],"chunk":[23],"ex":[3],"e.ind":[0],"code":["balken <- eu_analyse %>%\nmutate( typ = as.factor(ifelse(debt_share_country>0.6,1,0)),\nrelation = debt_share_country - 0.6)\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:16:15"],"user":["Esra Akdeniz"],"umph":[1636154175.3631],"ok":[false],"chunk":[24],"ex":[3],"e.ind":[1],"code":["#plot_balken <- balken %>%\n#  filter(___) %>%\n#  ggplot(aes(x=___, y=___)) + \n#  geom____(stat=___, aes(fill=___), width=___) +\n#  xlab(___) +\n#  ylab(___) +\n#  ___(\"Einhaltung der Maastricht Kriterien in 2005\")\n\n#plot_balken\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to plot_balken in chunk 3_f."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:20:59"],"user":["Esra Akdeniz"],"umph":[1636154459.3728],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:20:59"],"user":["Esra Akdeniz"],"umph":[1636154459.6945],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[0],"code":["plot_balken <- balken %>%\nfilter(year==2005) %>%\nggplot(aes(x=country, y=relation)) + \ngeom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\nxlab(\"Laender\") +\nylab(\"Relation\") +\nggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\nplot_balken\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:21:00"],"user":["Esra Akdeniz"],"umph":[1636154460.1797],"ok":[true],"chunk":[25],"ex":[3],"e.ind":[0],"code":["plot_balken_final <- plot_balken +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))\n\nplot_balken_final"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:21:00"],"user":["Esra Akdeniz"],"umph":[1636154460.1986],"ok":[false],"chunk":[26],"ex":[3],"e.ind":[1],"code":["#flipped_bars <- balken %>%\n#  filter(year==2005 | ___) %>%\n#  ggplot(aes(x=___, y=___)) + \n#  geom_bar(stat=___, aes(fill=___), width=___) +\n#  xlab(___) +\n#  ylab(\"Relation\") +\n#  ___(\"Einhaltung der Maastricht Kriterien in 2005 und 2014\") +\n#  facet_wrap( ___~., ncol=___) +\n#  coord_flip()\n\n#flipped_bars\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to flipped_bars in chunk 3_h."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:25:20"],"user":["Esra Akdeniz"],"umph":[1636154720.8069],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:25:21"],"user":["Esra Akdeniz"],"umph":[1636154721.2808],"ok":[true],"chunk":[26],"ex":[3],"e.ind":[0],"code":["flipped_bars <- balken %>%\nfilter(year==2005 | year==2014) %>%\nggplot(aes(x=country, y=relation)) + \ngeom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\nxlab(\"Laender\") +\nylab(\"Relation\") +\nggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2014\") +\nfacet_wrap( year~., ncol=2) +\ncoord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:25:21"],"user":["Esra Akdeniz"],"umph":[1636154721.8473],"ok":[true],"chunk":[27],"ex":[3],"e.ind":[0],"code":["flipped_bars +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:25:21"],"user":["Esra Akdeniz"],"umph":[1636154721.8612],"ok":[false],"chunk":[28],"ex":[3],"e.ind":[0],"code":["#animated_bars <- balken %>%\n#  ggplot(aes(x=___, y=___)) + \n#  geom_bar(stat=___, aes(fill=___), width=.5) +\n#  ___(\"Laender\") +\n#  ylab(___) +\n#  ___(\"Einhaltung der Maastricht Kriterien in 2005 und 2014\") +\n#  scale_fill_manual(name=\"Rel. Schuldenquote\", \n#                    ___ = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n#                    ___ = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n#  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":["evaluation error in \n  animated_bars + transition_time(as.integer(year)) + labs(title = \"Jahr: {frame_time}\")\n  Error:  object 'animated_bars' not found\n"]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:32:45"],"user":["Esra Akdeniz"],"umph":[1636155165.8387],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:33:07"],"user":["Esra Akdeniz"],"umph":[1636155187.7256],"ok":[true],"chunk":[28],"ex":[3],"e.ind":[0],"code":["animated_bars <- balken %>%\nggplot(aes(x=country, y=relation)) + \ngeom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\nxlab(\"Laender\") +\nylab(\"Relation\") +\nggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2014\") +\nscale_fill_manual(name=\"Rel. Schuldenquote\", \nlabels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\nvalues = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\ncoord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:33:07"],"user":["Esra Akdeniz"],"umph":[1636155187.9311],"ok":[true],"chunk":[29],"ex":[4],"e.ind":[0],"code":["dat <-  readRDS(\"./data/eu_macro_maps.Rds\")\nhead(dat)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:33:08"],"user":["Esra Akdeniz"],"umph":[1636155188.0428],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[1],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat %>%\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat %>%\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\n#dat %>%\n#  ggplot() +\n#  geom_sf(aes(fill=___, geometry=geometry)) +\n#  geom_sf_text(aes(label=___, geometry=geometry), size=3)+\n#  theme_void() + \n#  scale_fill_gradientn(colours = colours, name = ___) +\n#  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 4___Kartenmaterial__2."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:35:53"],"user":["Esra Akdeniz"],"umph":[1636155353.8075],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:35:53"],"user":["Esra Akdeniz"],"umph":[1636155353.9062],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[1],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat %>%\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat %>%\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\n#dat %>%\n#  ggplot() +\n#  geom_sf(aes(fill=___, geometry=geometry)) +\n#  geom_sf_text(aes(label=___, geometry=geometry), size=3)+\n#  theme_void() + \n#  scale_fill_gradientn(colours = colours, name = ___) +\n#  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 4___Kartenmaterial__2."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 00:40:26"],"user":["Esra Akdeniz"],"umph":[1636155626.624],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:26"],"user":["Esra Akdeniz"],"umph":[1636155626.6898],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[1],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat %>%\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat %>%\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\n#dat %>%\n#  ggplot() +\n#  geom_sf(aes(fill=___, geometry=geometry)) +\n#  geom_sf_text(aes(label=___, geometry=geometry), size=3)+\n#  theme_void() + \n#  scale_fill_gradientn(colours = colours, name = ___) +\n#  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 4___Kartenmaterial__2."]}
+,
+{"type":["grade_ps"],"time":["2021-11-06 00:40:32"],"user":["Esra Akdeniz"],"umph":[1636155632.7985],"ok":[true]}
+,
+{"type":["init_ps"],"time":["2021-11-06 00:40:32"],"user":["Esra Akdeniz"],"umph":[1636155632.8483],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:32"],"user":["Esra Akdeniz"],"umph":[1636155632.8693],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:33"],"user":["Esra Akdeniz"],"umph":[1636155633.1286],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:33"],"user":["Esra Akdeniz"],"umph":[1636155633.6063],"ok":[true],"chunk":[3],"ex":[1],"e.ind":[0],"code":["\nueberblick <- skim (eu_makro)\nueberblick "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:33"],"user":["Esra Akdeniz"],"umph":[1636155633.8327],"ok":[true],"chunk":[4],"ex":[1],"e.ind":[0],"code":["panderOptions('knitr.auto.asis', FALSE)\nueberblick %>% pander(style=\"rmarkdown\") "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:33"],"user":["Esra Akdeniz"],"umph":[1636155633.8526],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:33"],"user":["Esra Akdeniz"],"umph":[1636155633.8726],"ok":[true],"chunk":[6],"ex":[1],"e.ind":[0],"code":["\n2"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:33"],"user":["Esra Akdeniz"],"umph":[1636155633.9683],"ok":[true],"chunk":[7],"ex":[1],"e.ind":[0],"code":["deskriptives <- eu_makro %>%\ngroup_by(country) %>%\nsummarize(Mittel = round(mean(debt_share_country, na.rm=TRUE),2),\n          SD = round(sd(debt_share_country, na.rm=TRUE),2),\n          Min = round(min(debt_share_country, na.rm=TRUE),2),\n          Median = round(median(debt_share_country, na.rm=TRUE),2),\n          Max = round(max(debt_share_country, na.rm=TRUE),2)) %>%\n  arrange(desc(Median))\n\ndeskriptives\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:34"],"user":["Esra Akdeniz"],"umph":[1636155634.083],"ok":[true],"chunk":[8],"ex":[2],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:34"],"user":["Esra Akdeniz"],"umph":[1636155634.2107],"ok":[true],"chunk":[9],"ex":[2],"e.ind":[0],"code":["\ndeutschland<- eu_makro %>%\n  filter(country==\"Germany\")\ndeutschland\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:34"],"user":["Esra Akdeniz"],"umph":[1636155634.47],"ok":[true],"chunk":[10],"ex":[2],"e.ind":[0],"code":["g1 <- deutschland %>%\n  ggplot() + geom_point(aes(x = year, y = gdp))\ng1\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:34"],"user":["Esra Akdeniz"],"umph":[1636155634.7871],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[0],"code":["g2<-g1+geom_line(aes(x=year, y=gov_debt))\ng2\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:35"],"user":["Esra Akdeniz"],"umph":[1636155635.5351],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[0],"code":["g3 <- eu_makro %>%\nggplot() + \ngeom_line(aes(x = year , y = debt_share_country, group=country, colour=country))\ng3\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:35"],"user":["Esra Akdeniz"],"umph":[1636155635.6029],"ok":[true],"chunk":[13],"ex":[2],"e.ind":[0],"code":["eu_analyse <- eu_makro %>%\nfilter(year>=1995) %>%\nmutate( Laender = case_when(\ncountry == \"Germany\" ~ \"Deutschland\",\ncountry == \"Italy\" ~ \"Italien\",\nTRUE ~ \"Andere\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:36"],"user":["Esra Akdeniz"],"umph":[1636155636.681],"ok":[true],"chunk":[14],"ex":[2],"e.ind":[0],"code":["g4 <- eu_analyse %>%\n  ggplot() + \n  geom_line(aes(x = year, y = debt_share_country, group = country, colour = Laender))\ng4\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:37"],"user":["Esra Akdeniz"],"umph":[1636155637.1966],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[0],"code":["g5<-g4+\n  ylab(\"Schuldenquote\")+\n  xlab(\"Jahr\")+\n  scale_color_manual(name=\"Laender\", values=c(\"grey\",\"springgreen4\",\"blue\"))\ng5\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:37"],"user":["Esra Akdeniz"],"umph":[1636155637.7272],"ok":[true],"chunk":[16],"ex":[2],"e.ind":[0],"code":["final <- g5 +\nggtitle(\"Schuldenquote einzelner EU-Laender von 1995 - 2017\") +\ngeom_hline(yintercept=0.60, colour = \"red\")\nfinal\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:38"],"user":["Esra Akdeniz"],"umph":[1636155638.3974],"ok":[true],"chunk":[17],"ex":[2],"e.ind":[0],"code":["final +\n  theme_bw() +\n  guides(color = FALSE) +\n  geom_text_repel(aes(x = year, y = debt_share_country, label = Laender),\n                  data          = filter(eu_analyse %>% filter(Laender!=\"Andere\", year==last(year))),\n                  size          = 4,\n                  box.padding   = 1.5,\n                  point.padding = 0.5,\n                  force         = 100,\n                  segment.size  = 0.2,\n                  segment.color = \"grey50\",\n                  direction     = \"x\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:38"],"user":["Esra Akdeniz"],"umph":[1636155638.5869],"ok":[true],"chunk":[18],"ex":[3],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\neu_analyse <- eu_makro %>%\n  filter(year>=1995) %>%\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:38"],"user":["Esra Akdeniz"],"umph":[1636155638.8541],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[0],"code":["eu_2005 <- eu_makro %>% \nfilter(year==2005) %>%\nggplot(aes(debt_share_country)) + \ngeom_histogram()\neu_2005\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:39"],"user":["Esra Akdeniz"],"umph":[1636155639.2631],"ok":[true],"chunk":[20],"ex":[3],"e.ind":[0],"code":["eu_2005f <- eu_makro %>%\nfilter(year==2005) %>%\nggplot(aes(debt_share_country)) +\ngeom_histogram(binwidth=0.01) + \nylab(\"Anzahl\") +\nxlab(\"Schuldenquote\") +\ngeom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\")\neu_2005f"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:40"],"user":["Esra Akdeniz"],"umph":[1636155640.5418],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[0],"code":["eu_vergleich <- eu_makro %>% \nfilter(year==2005 | year==2008 | year==2011 | year==2014) %>%\nggplot(aes(debt_share_country)) + \ngeom_histogram(binwidth = 0.01) +\ngeom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\nxlab(\"Schuldenquote\") +\nylab(\"Anzahl\") +\nggtitle(\"Verteilung der Schuldenquote\") +\nfacet_wrap(year ~., nrow=4)\neu_vergleich\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:40"],"user":["Esra Akdeniz"],"umph":[1636155640.5648],"ok":[true],"chunk":[22],"ex":[3],"e.ind":[0],"code":["\n1"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:40"],"user":["Esra Akdeniz"],"umph":[1636155640.5967],"ok":[true],"chunk":[23],"ex":[3],"e.ind":[0],"code":["balken <- eu_analyse %>%\nmutate( typ = as.factor(ifelse(debt_share_country>0.6,1,0)),\nrelation = debt_share_country - 0.6)\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:41"],"user":["Esra Akdeniz"],"umph":[1636155641.3962],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[0],"code":["plot_balken <- balken %>%\nfilter(year==2005) %>%\nggplot(aes(x=country, y=relation)) + \ngeom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\nxlab(\"Laender\") +\nylab(\"Relation\") +\nggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\nplot_balken\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:41"],"user":["Esra Akdeniz"],"umph":[1636155641.8746],"ok":[true],"chunk":[25],"ex":[3],"e.ind":[0],"code":["plot_balken_final <- plot_balken +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))\n\nplot_balken_final"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:42"],"user":["Esra Akdeniz"],"umph":[1636155642.4669],"ok":[true],"chunk":[26],"ex":[3],"e.ind":[0],"code":["flipped_bars <- balken %>%\nfilter(year==2005 | year==2014) %>%\nggplot(aes(x=country, y=relation)) + \ngeom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\nxlab(\"Laender\") +\nylab(\"Relation\") +\nggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2014\") +\nfacet_wrap( year~., ncol=2) +\ncoord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:40:43"],"user":["Esra Akdeniz"],"umph":[1636155643.048],"ok":[true],"chunk":[27],"ex":[3],"e.ind":[0],"code":["flipped_bars +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:41:05"],"user":["Esra Akdeniz"],"umph":[1636155665.3209],"ok":[true],"chunk":[28],"ex":[3],"e.ind":[0],"code":["animated_bars <- balken %>%\nggplot(aes(x=country, y=relation)) + \ngeom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\nxlab(\"Laender\") +\nylab(\"Relation\") +\nggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2014\") +\nscale_fill_manual(name=\"Rel. Schuldenquote\", \nlabels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\nvalues = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\ncoord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:41:05"],"user":["Esra Akdeniz"],"umph":[1636155665.4117],"ok":[true],"chunk":[29],"ex":[4],"e.ind":[0],"code":["dat <-  readRDS(\"./data/eu_macro_maps.Rds\")\nhead(dat)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 00:41:05"],"user":["Esra Akdeniz"],"umph":[1636155665.4656],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[1],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat %>%\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat %>%\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\n#dat %>%\n#  ggplot() +\n#  geom_sf(aes(fill=___, geometry=geometry)) +\n#  geom_sf_text(aes(label=___, geometry=geometry), size=3)+\n#  theme_void() + \n#  scale_fill_gradientn(colours = colours, name = ___) +\n#  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 4___Kartenmaterial__2."]}
+,
+{"type":["check_ps"],"time":["2021-11-06 16:45:01"],"user":["Esra Akdeniz"],"umph":[1636213501.8573],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2021-11-06 16:45:01"],"user":["Esra Akdeniz"],"umph":[1636213501.9583],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[1],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat %>%\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat %>%\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\n#dat %>%\n#  ggplot() +\n#  geom_sf(aes(fill=___, geometry=geometry)) +\n#  geom_sf_text(aes(label=___, geometry=geometry), size=3)+\n#  theme_void() + \n#  scale_fill_gradientn(colours = colours, name = ___) +\n#  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 4___Kartenmaterial__2."]}
+,
